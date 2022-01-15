@@ -337,9 +337,10 @@ int Application::SearchByNumber(int i)
     for(j=0;j<players.size();++j)
     {
         if(players[j].get_playerNumber()==i)
-            break;
+            return j;
     }
-    return players[j].get_playerNumber();
+    //error should not reach this point
+    return -1;
 }
 
 void Application::Marbles()
