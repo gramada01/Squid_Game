@@ -94,6 +94,10 @@ void Application::Reading(string fileName)
         players.back().set_name(word);
 
         getline(ss,word,',');
+        if(word.back()=='\r' || word.back()=='\n')
+            word.erase(word.end()-1);
+        if(word.back()=='\r' || word.back()=='\n')
+            word.erase(word.end()-1);
         players.back().set_city(word);
     }
     for(size_t i=0;i<players.size();++i)
