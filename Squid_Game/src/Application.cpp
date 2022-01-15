@@ -538,7 +538,7 @@ void Application::ShowResult()
             teamCircle = teamCircle + supervisors[i].get_compensation();
     }
 
-    if(teamCircle>teamRectangle and teamCircle>teamRectangle)
+    if(teamCircle>teamRectangle and teamCircle>teamTriangle)
     {
         cout<<"The supervisor team that has the most money is: Circle Masks, with the amount of "<<teamCircle;
     }
