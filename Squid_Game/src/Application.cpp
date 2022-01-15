@@ -520,7 +520,7 @@ void Application::ShowResult()
     for(i=8;i>=0;i--)
     {
         cout<<supervisors[index[i]].get_surname()<<" "<<supervisors[index[i]].get_name();
-        cout<<", money won: "<<supervisors[index[i]].get_compensation()<<", money after paying debt : "<<supervisors[index[i]].get_compensation()-supervisors[index[i]].get_debt();
+        cout<<", money won: "<<supervisors[index[i]].get_compensation()<<", money after paying debt : "<<supervisors[index[i]].get_compensation()-supervisors[index[i]].get_debt()*10;
         cout<<endl;
     }
 
