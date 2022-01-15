@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1642249390 source:c:\users\matei\desktop\poo\squid_game\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<fstream>
+	"Application.h"
+
+1642115631 source:c:\users\matei\desktop\poo\squid_game\src\people.cpp
+	"People.h"
+
+1642173446 c:\users\matei\desktop\poo\squid_game\include\people.h
+	<string>
+	<vector>
+
+1642116325 c:\users\matei\desktop\poo\squid_game\peoplegeneration.h
+	"People.h"
+
+1642258483 c:\users\matei\desktop\poo\squid_game\include\application.h
+	<fstream>
+	<iostream>
+	"People.h"
+	"Rand.h"
+
+1642183288 c:\users\matei\desktop\poo\squid_game\include\rand.h
+
+1642260150 source:c:\users\matei\desktop\poo\squid_game\src\application.cpp
+	"Application.h"
+	<sstream>
+	<string>
+	<time.h>
+
+1642183288 source:c:\users\matei\desktop\poo\squid_game\src\rand.cpp
+	"Rand.h"
+	<cstdlib>
+
